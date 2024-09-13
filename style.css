@@ -1,0 +1,21 @@
+/* Basic styling for the application */
+body {
+  font-family: Arial, sans-serif; /* Set font family */
+}
+
+#container {
+  width: 600px; /* Container width */
+  margin: auto; /* Center container horizontally */
+  padding: 20px; /* Add padding */
+}
+
+input {
+  width: 100%; /* Full-width input field */
+  padding: 10px; /* Add padding */
+  margin-bottom: 10px; /* Space below the input field */
+}
+
+button {
+  padding: 10px 20px; /* Button padding */
+  margin-right: 10px; /* Space between buttons */
+}

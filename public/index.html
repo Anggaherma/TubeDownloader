@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Downloader and MP3 Converter</title>
+    <!-- Link to optional CSS file for styling -->
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      /* Basic style for the menu */
+      nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+      nav ul li {
+        margin-right: 20px;
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Video Downloader and MP3 Converter</h1>
+      <!-- Input field for entering the video URL -->
+      <input id="url" type="text" placeholder="Enter video URL" />
+      <!-- Button to select download directory -->
+      <button id="select-dir">Select Download Folder</button>
+      <!-- Button to start downloading the video -->
+      <button id="download-video" onclick="downloadVideo()">
+        Download Video
+      </button>
+      <!-- Button to start converting the video to MP3 -->
+      <button id="convert-to-mp3">Convert to MP3</button>
+      <!-- Output div to display success or error messages -->
+      <div id="output"></div>
+    </div>
+    <!-- Link to renderer process JavaScript file -->
+    <script type="module" src="../renderer.js"></script>
+  </body>
+</html>
